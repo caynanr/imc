@@ -1,0 +1,78 @@
+/*-------
+GERAL
+---------*/
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-family: Asap, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(135deg, rgb(11, 215, 186), rgb(38, 70, 83));
+}
+
+/*--------
+CABEÇALHO
+--------*/
+header {
+  background-image: url('../images/cay.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 15%;
+  box-shadow: 3px 3px 30px rgba(0,0,0,.5);
+}
+
+/*-------AVATAR-------*/
+#avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin-top: -12%;
+  border: 7px solid #f1f1f1;
+  border-radius: 100%;
+  position: relative;
+  left: 37%;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.5);
+}
+
+/*------
+LINKS
+-------*/
+section {
+  background-color: #ffffff;;
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6%;
+}
+section a {
+  margin-bottom: 14px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position:relative;
+  margin-top: 13%;
+  color: #f1f1f1;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+footer img {
+  width: 4%;
+}
