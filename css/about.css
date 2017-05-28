@@ -84,5 +84,17 @@ footer {
   font-weight: 600;
 }
 footer img {
-  width: 4%;
+  width: 6%;
+}
+footer img:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce{
+  10%, 40%, 70% {
+    transform: translateY(-10px);
+  }
+  25%, 55%, 85% {
+    transform: translateY(10px);
+  }
 }
