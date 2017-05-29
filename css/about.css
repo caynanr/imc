@@ -98,3 +98,25 @@ footer img:hover {
     transform: translateY(10px);
   }
 }
+
+/*MEDIA QUERYS*/
+@media screen and (min-width: 720px) {
+  header {
+    padding: 8%;
+  }
+  #avatar {
+    margin-top: -8%;
+    margin-left: 13%;
+    width: 10%;
+  }
+  section {
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  footer {
+    position: absolute;
+    top: 33%;
+    right: 10%;
+  }
+}
