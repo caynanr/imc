@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: rgb(11, 215, 186);
+  background-color: #F44336;
 }
 
 /*---------
@@ -21,7 +21,8 @@ label {
   align-items: center;
   background-color: #ffffff;
   box-shadow: 2px 2px 30px rgba(0,0,0,.5);
-  border-radius: 1%;;
+  border-top: 20px solid #9A2B22;
+  border-radius: 10px;
   width: 80%;
   padding: 30px;
   margin-top: 10px;
@@ -41,8 +42,10 @@ label {
    outline: none;
  }
  #label2 {
+   border-top:none;
+   border-left: 20px solid #9A2B22;
    height: 250px;
-   padding: 10px;
+   padding: 20px;
    margin-top: 10px;
  }
  #go-msg {
@@ -61,7 +64,13 @@ label {
     background-color: rgb(11, 215, 186);
     background-image: linear-gradient(130deg, rgb(11, 215, 186), rgb(38, 70, 83));
   }
+
+  input::-webkit-input-placeholder{
+    color: #d1d1d1;
+  }
+
    label {
+     border: none;
      font-size: 3em;
      font-weight: bold;
      color: #f1f1f1;
@@ -71,6 +80,7 @@ label {
      box-shadow: 0px 0px 0px rgba(0,0,0,.0);
    }
    #label2 {
+     border: none;
      margin-top: 120px;
      font-size: 2em;
      background-color: transparent;

@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-body {
+body{
   background-color:rgb(38, 70, 83);
 }
 
@@ -22,13 +22,14 @@ body {
 CABEÇALHO
 --------*/
 header {
+  filter: blur(30px);
   background-image: url('../images/cay.jpg');
+  overflow: hidden;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   padding: 20%;
-  box-shadow: 3px 3px 30px rgba(0,0,0,.5);
 }
 
 /*-------AVATAR-------*/
@@ -37,54 +38,46 @@ header {
   flex-direction: column;
   align-items: center;
   width: 35%;
-  margin-top: -22%;
-  border: 7px solid #f1f1f1;
-  border-radius: 100%;
+  margin-top: -45%;
+  border-radius:90%;
   position: relative;
-  left: 30%;
-  box-shadow: 2px 2px 20px rgba(0,0,0,.5);
-}
-figcaption {
-  opacity: 0;
-  color: #ffffff;
-  background-color: rgba(0,0,0,.4);;
-  position: absolute;
-  top: 3%;;
-  left: 17%;
-  transition: 2s;
-}
-figcaption:hover {
-  opacity: 1;
+  box-shadow: 2px 2px 30px rgba(0,0,0,.5);
 }
 /*------
 LINKS
 -------*/
 section {
-  background-color: #ffffff;;
-  margin-top: 22%;
-  margin-bottom: 20%;
+  background-color: #ffffff;
+  width: 50%;
+  color: #000000;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 6%;
-}
-section a {
-  margin-bottom: 14px;
+  position: relative;
+  float: right;
+  margin-top: 10%;
+  margin-right: 20%;
+  border-radius: 3px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,.5);
 }
 
 /*FOOTER*/
 footer {
   background-color: transparent;
+  color: #ffffff;
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  position:relative;
-  color: #f1f1f1;
+  position:absolute;
+  bottom: 0px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
 }
 footer img {
-  width: 6%;
+  width: 4%;
 }
 footer img:hover {
   animation: bounce 1s;
@@ -107,16 +100,14 @@ footer img:hover {
   #avatar {
     margin-top: -8%;
     margin-left: 13%;
-    width: 10%;
+    width: 13%;
   }
   section {
     width: 30%;
-    margin-top: 0px;
+    margin-top:-12%;
     margin-bottom: 0px;
   }
   footer {
-    position: absolute;
-    top: 33%;
-    right: 10%;
+
   }
 }

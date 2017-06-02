@@ -134,21 +134,21 @@ footer a{
 /*-----MEDIA QUERYS--------*/
 @media screen and (min-width:720px) {
   body {
-    color: #d1d1d1;
-    background-color: #ffffff;
+    color: #000;
+    background-color: #F44336;
   }
   input {
-    color: #f1f1f1;
+    color: #000000;
   }
   input::-webkit-input-placeholder{
     color: #d1d1d1;
   }
   main {
-    background-color: rgb(11, 215, 186);
-    background-image: linear-gradient(130deg, rgb(11, 215, 186), rgb(38, 70, 83));
+    background-color: #FFEBEE;
     width: 50%;
-    margin-left: 20%;
-    border-radius: 0px;
+    margin-left: 10%;
+    border-radius: 5px;
+    border-top: 40px solid #9A2B22;
     height: 350px;
     box-shadow: 5px 5px 35px rgba(0,0,0,.5);
   }
@@ -160,25 +160,27 @@ footer a{
     margin-left: 0%;
   }
   footer a {
-    background-color: rgb(11, 215, 186);
-    background-image: linear-gradient(130deg, rgb(11, 215, 186), rgb(38, 70, 83));
+    background-color: #FFEBEE;
+    border-left: 10px solid #9A2B22;
     border-radius: 0px;
-    width: 50%;
+    width: 20%;
     padding: 2%;
-    margin-left: 23%;
-    color: #f1f1f1;
+    color: #000;
+    border-radius: 10px;
     box-shadow: 5px 5px 35px rgba(0,0,0,.5);
+    float: right;
+    margin-top: -10%;
   }
   #button {
-    width: 19%;
+    width: 10%;
     border-radius: 100px;
     cursor: pointer;
     outline: none;
     box-shadow:;
-    /*background-color: #256968;*/
+    background-image: linear-gradient(130deg, #F44336, #F44336);
     color: #f1f1f1;
   }
   #button:hover {
-    color: #000;
+    box-shadow: none;
   }
 }
