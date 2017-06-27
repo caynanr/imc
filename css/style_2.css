@@ -1,0 +1,19 @@
+#entrada {
+  padding: 2%;
+  margin-top: 15%;
+}
+#resultado {
+  padding: 2%;
+}
+
+#btn1 {
+  float: right;
+  margin-right: 7%;
+  margin-bottom: -12.5%;
+}
+
+#saida{
+  font-size: 1.3em;
+  color: #000;
+  text-align: center;
+}
