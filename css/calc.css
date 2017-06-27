@@ -11,6 +11,7 @@ body {
 }
 
 /*-------- EDITANDO OS LABELS-------------*/
+
 main {
   background-color: #ffffff;
   display: flex;
@@ -130,6 +131,22 @@ footer a{
   padding: 4%;
   border-radius: 30px;
 }
+#btn_new {
+  background-color: white;
+  color: #000000;
+  text-decoration: none;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  margin-left: 7%;
+  margin-top: 2%;
+  padding: 4%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+}
 
 /*-----MEDIA QUERYS--------*/
 @media screen and (min-width:720px) {
@@ -159,7 +176,7 @@ footer a{
   #resultado {
     margin-left: 0%;
   }
-  footer a {
+  footer a{
     background-color: #FFEBEE;
     border-left: 10px solid #9A2B22;
     border-radius: 0px;
@@ -171,6 +188,18 @@ footer a{
     float: right;
     margin-top: -10%;
   }
+
+  #btn_new {
+    background-color: #ffffff;
+    position: absolute;
+    right: 0px;
+    width: 15%;
+    padding: 2%;
+    color: #000;
+    border-radius: 0%;
+    box-shadow: 5px 5px 35px rgba(0,0,0,.5);
+  }
+
   #button {
     width: 10%;
     border-radius: 100px;
