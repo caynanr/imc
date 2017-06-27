@@ -132,8 +132,8 @@ footer a{
   border-radius: 30px;
 }
 #btn_new {
-  background-color: white;
-  color: #000000;
+  background-color: transparent;
+  color: #f1f1f1;
   text-decoration: none;
   font-family: sans-serif;
   display: flex;
@@ -142,7 +142,7 @@ footer a{
   position: relative;
   width: 80%;
   margin-left: 7%;
-  margin-top: 2%;
+  margin-top: 3%;
   padding: 4%;
   border-radius: 30px;
   box-shadow: 2px 2px 30px rgba(0,0,0,.5);
